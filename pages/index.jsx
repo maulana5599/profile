@@ -18,8 +18,8 @@ export default function Home() {
                   <div className="display-t js-fullheight">
                     <div className="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
                       <div className="profile-thumb" style={{background: 'url(images/user-3.jpg)'}} />
-                      <h1><span>Louie Jie Mahusay</span></h1>
-                      <h3><span>Web Developer / Photographer</span></h3>
+                      <h1><span>Maulana Muhammad Rizky</span></h1>
+                      <h3><span>Software Developer / Photographer</span></h3>
                       <p>
                       </p><ul className="fh5co-social-icons">
                         <li><a href="#"><i className="icon-twitter2" /></a></li>
@@ -44,11 +44,11 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-4">
                   <ul className="info">
-                    <li><span className="first-block">Full Name:</span><span className="second-block">Louie Jie Mahusay</span></li>
-                    <li><span className="first-block">Phone:</span><span className="second-block">+ 1235 2355 98</span></li>
-                    <li><span className="first-block">Email:</span><span className="second-block">info@yoursite.com</span></li>
-                    <li><span className="first-block">Website:</span><span className="second-block">www.yoursite.com</span></li>
-                    <li><span className="first-block">Address:</span><span className="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li>
+                    <li><span className="first-block">Full Name:</span><span className="second-block">Maulana Muhammad Rizky</span></li>
+                    <li><span className="first-block">Phone:</span><span className="second-block">+62 813-81367-5379</span></li>
+                    <li><span className="first-block">Email:</span><span className="second-block">maulana9175@gmail.com</span></li>
+                    <li><span className="first-block">Website:</span><span className="second-block">maulanamuhammadrizky.my.id</span></li>
+                    {/* <li><span className="first-block">Address:</span><span className="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li> */}
                   </ul>
                 </div>
                 <div className="col-md-8">
@@ -549,8 +549,6 @@ export default function Home() {
             <a href="#" className="js-gotop"><i className="icon-arrow-up22" /></a>
           </div>
         </div>
-
-
     </>
   )
 }
