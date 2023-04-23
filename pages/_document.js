@@ -25,21 +25,21 @@ export default function Document() {
       <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"/>
       <link rel="stylesheet" href="/css/icomoon.css"/>
-      <script src="/js/modernizr-2.6.2.min.js"async ></script>
-      <script src="/js/respond.min.js" async></script>
+      <script src="/js/modernizr-2.6.2.min.js"></script>
+      <script src="/js/respond.min.js"></script>
       </Head>
       <body>
         <Main />
         <NextScript />
-        <script async src="/js/jquery.min.js"></script>
-        <script async src="/js/jquery.easing.1.3.js"></script>
-        <script async src="/js/bootstrap.min.js"></script>
-        <script async src="/js/jquery.waypoints.min.js"></script>
-        <script async src="/js/jquery.stellar.min.js"></script>
-        <script async src="/js/jquery.easypiechart.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/jquery.easing.1.3.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/jquery.waypoints.min.js"></script>
+        <script src="/js/jquery.stellar.min.js"></script>
+        <script src="/js/jquery.easypiechart.min.js"></script>
         {/* <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script> */}
         {/* <script src="/js/google_map.js"></script> */}
-        <script async src="/js/main.js"></script>
+        <script src="/js/main.js"></script>
       </body>
     </Html>
   )
