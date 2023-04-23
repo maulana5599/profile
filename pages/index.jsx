@@ -11,13 +11,13 @@ export default function Home() {
       	{/* <div className="fh5co-loader" /> */}
         <div id="page">	
           <header id="fh5co-header" className="fh5co-cover js-fullheight" role="banner" style={{backgroundImage: 'url(images/cover_bg_3.jpg)'}} data-stellar-background-ratio="0.5">
-            <div className="overlay" />
+            <div className="overlay" style={{background: '#100624e6'}} />
             <div className="container">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 text-center">
                   <div className="display-t js-fullheight">
                     <div className="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                      <div className="profile-thumb" style={{background: 'url(images/user-3.jpg)'}} />
+                      <div className="profile-thumb" style={{background: 'url(https://media.licdn.com/dms/image/C4E03AQFb3tJPhxwwug/profile-displayphoto-shrink_200_200/0/1624448899371?e=1687392000&v=beta&t=jknkm02QVDc5WuIyprPAZeGlINUDuKpLoxCxOvTF3cg)'}} />
                       <h1><span>Maulana Muhammad Rizky</span></h1>
                       <h3><span>Software Developer / Photographer</span></h3>
                       <p>
