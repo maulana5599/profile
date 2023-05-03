@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,10 +23,8 @@ export default function Home() {
                       <h3><span>Software Developer / Photographer</span></h3>
                       <p>
                       </p><ul className="fh5co-social-icons">
-                        <li><a href="#"><i className="icon-twitter2" /></a></li>
-                        <li><a href="#"><i className="icon-facebook2" /></a></li>
-                        <li><a href="#"><i className="icon-linkedin2" /></a></li>
-                        <li><a href="#"><i className="icon-dribbble2" /></a></li>
+                        <li><Link target={'_blank'} href="https://www.facebook.com/maulana.m.rizky.9/"><i className="icon-facebook2" /></Link></li>
+                        <li><Link target={'_blank'} href="https://www.linkedin.com/in/maulana-muhammad-rizky-5b8a22206/"><i className="icon-linkedin2" /></Link></li>
                       </ul>
                       <p />
                     </div>
